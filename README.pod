@@ -1,0 +1,6 @@
+=pod
+
+=head1 box.rexify.org
+
+This is the code of box.rexify.org. This site will go online with (R)?ex Version 0.35.
+
