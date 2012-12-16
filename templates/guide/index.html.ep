@@ -7,13 +7,13 @@
 <div class="small-vspace"></div>
 <p>The problems ranges from wrong versions of a interpreter (for example Perl, PHP, Python, Ruby, ...) over missing libraries up to operating system differences. With Rex/Boxes you can build one Box (VM) for every project you work on and keep your environment clean and consistent.</p> 
 <div class="small-vspace"></div>
-<p>A few months ago i heard someone saying &raquo;<i>Fail early, fail hard</i>&laquo;. It is always better to fail on test environments than on production machines.</p>
+<p>A few months ago I heard someone saying &raquo;<i>Fail early, fail hard</i>&laquo;. It is always better to fail on test environments than on production machines.</p>
 
 <div class="small-vspace"></div>
 <p>With Rex/Boxes it is possible to <b>test your Software in an environment close to production</b>.</p>
 
 <div class="vspace"></div>
-<p><b>As a Teamlead</b> it is often not a small task to onboard new team members. With Rex/Boxes new team members can start working in just a few minutes. They can just use the <i>Rexfile</i> to create their own development environment in minutes. With the same packages, same versions, same configuration, same ... as everyone in the team.</p>
+<p><b>As a Teamlead</b> it is often not a small task to onboard new team members. With Rex/Boxes new team members can start working in just a few minutes. They can just use the same <i>Rexfile</i> as everyone in the team to create their own development environment in minutes. With the same packages, same versions, same configuration, same ... as everyone in the team.</p>
 
 
 <div class="vspace"></div>
@@ -49,7 +49,7 @@ task "prepare", group =&gt; "frontends", sub {
 </div>
 
 <div class="small-vspace"></div>
-<p>You can see, the <i>Rexfile</i> is simply perl code. With a <a href="http://rexify.org/api/">few extra functions</a> to ease working with the systems.</p>
+<p>You can see, the <i>Rexfile</i> is simply perl code with a <a href="http://rexify.org/api/">few extra functions</a> to ease working with the systems.</p>
 <div class="vspace"></div>
 
 <h1>Setup your environment</h1>
