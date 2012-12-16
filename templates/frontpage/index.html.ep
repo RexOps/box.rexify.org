@@ -1,0 +1,53 @@
+% layout 'default';
+% title 'Prebuild VirtualBox Images';
+
+<h1>Easy development for your Team</h1>
+
+<p>Create clean development environments for your projects. Test your software in a production like environment.</p>
+<div class="small-vspace"></div>
+
+<p>With Rex/Boxes you can easily create your test environment with VirtualBox. You can use prebuild VM Images or <a href="#">roll your own</a>. Read the <a href="/guide">quickstart guide</a> to create your own environment in minutes.</p>
+
+<div class="vspace"></div>
+<h1>Download a prebuild VirtualBox Image</h1>
+
+<p>To quick start with your project you can just use prebuild Boxes from here.</p>
+
+<div class="vspace"></div>
+
+<h2>Contribute</h2>
+<div class="small-vspace"></div>
+
+<p>You have build an own Image and want to share it? Please send an email to box@rexify.org.</p>
+
+<div class="vspace"></div>
+<h2>Usage</h2>
+<div class="small-vspace"></div>
+
+<p>To use one of the available Images you can use the following commands.</p>
+
+<div class="black-box">
+   <pre class="bash">bash# rexify $project-name --template=box
+bash# cd $project-name
+bash# rex init --name=vmname --url=http://box.rexify.org/ubuntu-server-12.10-amd64.box</pre>
+</div>
+
+<div class="vspace"></div>
+<h2>Available Images</h2>
+<div class="small-vspace"></div>
+
+<table border="0" class="box-list">
+   <tr class="head">
+      <td>Name</td>
+      <td>URL</td>
+      <td>Size</td>
+   </tr>
+
+   % for my $box (@{ $boxes }) {
+   <tr>
+      <td>Foo</td>
+      <td>http://...</td>
+      <td>200 MB</td>
+   </tr>
+   % }
+</table>

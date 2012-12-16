@@ -1,0 +1,1243 @@
+[Fri Dec 14 23:11:26 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:11:32 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:11:32 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:11:32 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:11:32 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:11:32 2012] [error] Global symbol "$message" requires explicit package name at template "frontpage/index.html.ep" line 3, near "This page was generated from the template "templates/example/welcome.html.ep"".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <h2><%= $message %></h2>
+4: This page was generated from the template "templates/example/welcome.html.ep"
+5: and the layout "templates/layouts/default.html.ep",
+6: <a href="<%== url_for %>">click here</a> to reload the page or
+7: <a href="/index.html">here</a> to move forward to a static page.
+
+[Fri Dec 14 23:11:32 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 14 23:11:32 2012] [debug] Template "exception.html.ep" not found.
+[Fri Dec 14 23:11:32 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:11:32 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:11:32 2012] [debug] 500 Internal Server Error (0.114275s, 8.751/s).
+[Fri Dec 14 23:11:45 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:11:46 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:11:46 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:11:46 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:11:46 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:11:46 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:11:46 2012] [debug] 200 OK (0.081708s, 12.239/s).
+[Fri Dec 14 23:11:46 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:11:46 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:11:46 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:11:46 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:11:46 2012] [debug] 200 OK (0.001260s, 793.651/s).
+[Fri Dec 14 23:11:46 2012] [debug] GET /js/jquery-1.5.2.min.js (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:11:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 14 23:11:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 14 23:11:46 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:11:46 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:11:46 2012] [debug] 404 Not Found (0.028620s, 34.941/s).
+[Fri Dec 14 23:11:46 2012] [debug] GET /js/highlight.js (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:11:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Dec 14 23:11:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Dec 14 23:11:46 2012] [debug] Rendering cached inline template.
+[Fri Dec 14 23:11:46 2012] [debug] Rendering cached inline template.
+[Fri Dec 14 23:11:46 2012] [debug] 404 Not Found (0.009401s, 106.372/s).
+[Fri Dec 14 23:12:26 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:12:26 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:12:26 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:12:26 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:12:26 2012] [debug] 200 OK (0.001180s, 847.458/s).
+[Fri Dec 14 23:13:22 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:13:23 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:13:23 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:13:23 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:13:23 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:13:23 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:13:23 2012] [debug] 200 OK (0.026457s, 37.797/s).
+[Fri Dec 14 23:13:23 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:13:23 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:13:23 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:13:23 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:13:23 2012] [debug] 200 OK (0.001123s, 890.472/s).
+[Fri Dec 14 23:13:30 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:13:30 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:13:30 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:13:30 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:13:30 2012] [debug] 200 OK (0.001696s, 589.623/s).
+[Fri Dec 14 23:13:33 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:13:33 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:13:33 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:13:33 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:13:33 2012] [debug] 200 OK (0.001400s, 714.286/s).
+[Fri Dec 14 23:13:55 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:13:55 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:13:55 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:13:55 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:13:55 2012] [debug] 200 OK (0.001269s, 788.022/s).
+[Fri Dec 14 23:14:54 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:14:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:14:56 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:14:56 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:14:56 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:14:56 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:14:56 2012] [debug] 200 OK (0.026397s, 37.883/s).
+[Fri Dec 14 23:14:56 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:14:56 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:14:56 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:14:56 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:14:56 2012] [debug] 200 OK (0.001177s, 849.618/s).
+[Fri Dec 14 23:15:33 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:15:36 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:15:36 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:15:36 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:15:36 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:15:36 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:15:36 2012] [debug] 200 OK (0.027459s, 36.418/s).
+[Fri Dec 14 23:15:36 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:15:36 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:15:36 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:15:36 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:15:36 2012] [debug] 200 OK (0.001183s, 845.309/s).
+[Fri Dec 14 23:15:49 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:15:50 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:15:50 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:15:50 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:15:50 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:15:50 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:15:50 2012] [debug] 200 OK (0.027211s, 36.750/s).
+[Fri Dec 14 23:15:50 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:15:50 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:15:50 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:15:50 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:15:50 2012] [debug] 200 OK (0.001699s, 588.582/s).
+[Fri Dec 14 23:21:56 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:22:00 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:22:00 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:22:00 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:22:00 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:22:00 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:22:00 2012] [debug] 200 OK (0.026424s, 37.844/s).
+[Fri Dec 14 23:22:00 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:22:00 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:22:00 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:22:00 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:22:00 2012] [debug] 200 OK (0.001181s, 846.740/s).
+[Fri Dec 14 23:22:26 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:22:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:22:28 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:22:28 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:22:28 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:22:28 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:22:28 2012] [debug] 200 OK (0.027118s, 36.876/s).
+[Fri Dec 14 23:22:28 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:22:28 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:22:28 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:22:28 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:22:28 2012] [debug] 200 OK (0.001143s, 874.891/s).
+[Fri Dec 14 23:27:54 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:27:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:27:56 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:27:56 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:27:56 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:27:56 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:27:56 2012] [debug] 200 OK (0.030489s, 32.799/s).
+[Fri Dec 14 23:27:56 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:27:56 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:27:56 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:27:56 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:27:56 2012] [debug] 200 OK (0.001161s, 861.326/s).
+[Fri Dec 14 23:28:07 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:28:08 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:28:08 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:28:08 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:28:08 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:28:09 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:28:09 2012] [debug] 200 OK (0.027907s, 35.833/s).
+[Fri Dec 14 23:28:09 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:28:09 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:28:09 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:28:09 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:28:09 2012] [debug] 200 OK (0.001121s, 892.061/s).
+[Fri Dec 14 23:33:13 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:33:16 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:33:16 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:33:16 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:33:16 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:33:16 2012] [error] Global symbol "@boxes" requires explicit package name at template "frontpage/index.html.ep" line 34, near "   <tr>".
+29:       <td>Name</td>
+30:       <td>URL</td>
+31:       <td>Size</td>
+32:    </tr>
+33: 
+34:    % for my $box (@boxes) {
+35:    <tr>
+36:       <td>Foo</td>
+37:       <td>http://...</td>
+38:       <td>200 MB</td>
+39:    </tr>
+
+[Fri Dec 14 23:33:16 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 14 23:33:16 2012] [debug] Template "exception.html.ep" not found.
+[Fri Dec 14 23:33:16 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:33:16 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:33:16 2012] [debug] 500 Internal Server Error (0.046117s, 21.684/s).
+[Fri Dec 14 23:34:09 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:34:11 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:34:11 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:34:11 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:34:11 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:34:11 2012] [error] Global symbol "$boxes" requires explicit package name at template "frontpage/index.html.ep" line 34, near "   <tr>".
+29:       <td>Name</td>
+30:       <td>URL</td>
+31:       <td>Size</td>
+32:    </tr>
+33: 
+34:    % for my $box (@{ $boxes }) {
+35:    <tr>
+36:       <td>Foo</td>
+37:       <td>http://...</td>
+38:       <td>200 MB</td>
+39:    </tr>
+
+[Fri Dec 14 23:34:11 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Dec 14 23:34:11 2012] [debug] Template "exception.html.ep" not found.
+[Fri Dec 14 23:34:11 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:34:11 2012] [debug] Rendering inline template.
+[Fri Dec 14 23:34:11 2012] [debug] 500 Internal Server Error (0.046856s, 21.342/s).
+[Fri Dec 14 23:34:39 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:34:40 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:34:40 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:34:40 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:34:40 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:34:40 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:34:40 2012] [debug] 200 OK (0.028181s, 35.485/s).
+[Fri Dec 14 23:34:40 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:34:40 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:34:40 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:34:40 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:34:40 2012] [debug] 200 OK (0.001724s, 580.046/s).
+[Fri Dec 14 23:35:06 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:35:06 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:35:06 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:35:06 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:35:06 2012] [debug] 200 OK (0.001420s, 704.225/s).
+[Fri Dec 14 23:35:06 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:35:06 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:35:06 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:35:06 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:35:06 2012] [debug] 200 OK (0.001652s, 605.327/s).
+[Fri Dec 14 23:35:16 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:35:16 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:35:16 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:35:16 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:35:16 2012] [debug] 200 OK (0.001196s, 836.120/s).
+[Fri Dec 14 23:35:16 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:35:16 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:35:16 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:35:16 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:35:16 2012] [debug] 200 OK (0.001653s, 604.961/s).
+[Fri Dec 14 23:36:34 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:36:34 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:36:34 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:36:34 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:36:34 2012] [debug] 200 OK (0.001291s, 774.593/s).
+[Fri Dec 14 23:36:34 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:36:34 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:36:34 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:36:34 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:36:34 2012] [debug] 200 OK (0.001246s, 802.568/s).
+[Fri Dec 14 23:36:40 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:36:40 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:36:40 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:36:40 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:36:40 2012] [debug] 200 OK (0.001214s, 823.723/s).
+[Fri Dec 14 23:36:40 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:36:40 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:36:40 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:36:40 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:36:40 2012] [debug] 200 OK (0.001459s, 685.401/s).
+[Fri Dec 14 23:36:58 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:36:58 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:36:58 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:36:58 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:36:58 2012] [debug] 200 OK (0.001234s, 810.373/s).
+[Fri Dec 14 23:36:58 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:36:58 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:36:58 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:36:58 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:36:58 2012] [debug] 200 OK (0.001360s, 735.294/s).
+[Fri Dec 14 23:37:06 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:37:06 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:37:06 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:37:06 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:37:06 2012] [debug] 200 OK (0.001132s, 883.392/s).
+[Fri Dec 14 23:37:06 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:37:06 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:37:06 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:37:06 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:37:06 2012] [debug] 200 OK (0.001769s, 565.291/s).
+[Fri Dec 14 23:37:25 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:37:25 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:37:25 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:37:25 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:37:25 2012] [debug] 200 OK (0.001150s, 869.565/s).
+[Fri Dec 14 23:40:02 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:40:03 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:40:03 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:40:03 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:40:03 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:40:03 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:40:03 2012] [debug] 200 OK (0.027364s, 36.544/s).
+[Fri Dec 14 23:40:54 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:40:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:40:56 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:40:56 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:40:56 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:40:56 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:40:56 2012] [debug] 200 OK (0.027661s, 36.152/s).
+[Fri Dec 14 23:41:40 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:41:41 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:41:41 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:41:41 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:41:41 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:41:41 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:41:41 2012] [debug] 200 OK (0.027941s, 35.790/s).
+[Fri Dec 14 23:42:17 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:42:18 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:42:18 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:42:18 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:42:18 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:42:18 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:42:18 2012] [debug] 200 OK (0.033600s, 29.762/s).
+[Fri Dec 14 23:42:29 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:42:31 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:42:31 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:42:31 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:42:31 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:42:31 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:42:31 2012] [debug] 200 OK (0.029124s, 34.336/s).
+[Fri Dec 14 23:42:41 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:42:41 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:42:41 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:42:41 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:42:41 2012] [debug] 200 OK (0.001244s, 803.859/s).
+[Fri Dec 14 23:42:55 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:42:55 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:42:55 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:42:55 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:42:55 2012] [debug] 200 OK (0.001213s, 824.402/s).
+[Fri Dec 14 23:43:03 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:43:03 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:43:03 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:43:03 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:43:03 2012] [debug] 200 OK (0.001161s, 861.326/s).
+[Fri Dec 14 23:46:16 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:46:22 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:46:22 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:46:22 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:46:22 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:46:22 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:46:22 2012] [debug] 200 OK (0.028201s, 35.460/s).
+[Fri Dec 14 23:46:34 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:46:35 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:46:35 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:46:35 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:46:35 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:46:35 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:46:35 2012] [debug] 200 OK (0.028683s, 34.864/s).
+[Fri Dec 14 23:46:46 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:46:46 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:46:46 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:46:46 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:46:46 2012] [debug] 200 OK (0.001323s, 755.858/s).
+[Fri Dec 14 23:46:55 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:46:55 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:46:55 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:46:55 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:46:55 2012] [debug] 200 OK (0.001734s, 576.701/s).
+[Fri Dec 14 23:47:02 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:47:02 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:47:02 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:47:02 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:47:02 2012] [debug] 200 OK (0.001250s, 800.000/s).
+[Fri Dec 14 23:47:12 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:47:12 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:47:12 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:47:12 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:47:12 2012] [debug] 200 OK (0.001206s, 829.187/s).
+[Fri Dec 14 23:47:18 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:47:18 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:47:18 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:47:18 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:47:18 2012] [debug] 200 OK (0.001221s, 819.001/s).
+[Fri Dec 14 23:47:39 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:47:40 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:47:40 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:47:40 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:47:40 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:47:40 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:47:40 2012] [debug] 200 OK (0.027740s, 36.049/s).
+[Fri Dec 14 23:47:46 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:47:46 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:47:46 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:47:46 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:47:46 2012] [debug] 200 OK (0.001557s, 642.261/s).
+[Fri Dec 14 23:47:46 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:47:46 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:47:46 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:47:46 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:47:46 2012] [debug] 200 OK (0.001140s, 877.193/s).
+[Fri Dec 14 23:48:24 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:48:26 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:48:26 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:48:26 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:48:26 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:48:26 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:48:26 2012] [debug] 200 OK (0.031949s, 31.300/s).
+[Fri Dec 14 23:48:34 2012] [info] Listening at "http://*:8000".
+[Fri Dec 14 23:48:35 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Dec 14 23:48:35 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Fri Dec 14 23:48:35 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:48:35 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Fri Dec 14 23:48:35 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Dec 14 23:48:35 2012] [debug] 200 OK (0.029406s, 34.007/s).
+[Fri Dec 14 23:48:59 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:48:59 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:48:59 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:48:59 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:48:59 2012] [debug] 200 OK (0.001155s, 865.801/s).
+[Fri Dec 14 23:48:59 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:48:59 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:48:59 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:48:59 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:48:59 2012] [debug] 200 OK (0.001988s, 503.018/s).
+[Fri Dec 14 23:49:12 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:49:12 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:49:12 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:49:12 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:49:12 2012] [debug] 200 OK (0.001195s, 836.820/s).
+[Fri Dec 14 23:49:12 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:49:12 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:49:12 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:49:12 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:49:12 2012] [debug] 200 OK (0.001192s, 838.926/s).
+[Fri Dec 14 23:49:14 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:49:14 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:49:14 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:49:14 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:49:14 2012] [debug] 200 OK (0.001197s, 835.422/s).
+[Fri Dec 14 23:49:14 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:49:14 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:49:14 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:49:14 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:49:14 2012] [debug] 200 OK (0.001352s, 739.645/s).
+[Fri Dec 14 23:49:23 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:49:23 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:49:23 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:49:23 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:49:23 2012] [debug] 200 OK (0.001191s, 839.631/s).
+[Fri Dec 14 23:49:23 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Fri Dec 14 23:49:23 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Fri Dec 14 23:49:23 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Fri Dec 14 23:49:23 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Fri Dec 14 23:49:23 2012] [debug] 200 OK (0.001366s, 732.064/s).
+[Sat Dec 15 10:31:19 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 10:31:19 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 10:31:19 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 10:31:19 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 10:31:19 2012] [debug] 200 OK (0.001206s, 829.187/s).
+[Sat Dec 15 10:31:19 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 10:31:19 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 10:31:19 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 10:31:19 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 10:31:19 2012] [debug] 200 OK (0.001530s, 653.595/s).
+[Sat Dec 15 14:37:28 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 14:37:28 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 14:37:28 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 14:37:28 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 14:37:28 2012] [debug] 200 OK (0.020093s, 49.769/s).
+[Sat Dec 15 14:37:28 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 14:37:28 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 14:37:28 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 14:37:28 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 14:37:28 2012] [debug] 200 OK (0.001199s, 834.028/s).
+[Sat Dec 15 14:59:19 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 14:59:21 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 14:59:21 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 14:59:21 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 14:59:21 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sat Dec 15 14:59:21 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 14:59:21 2012] [debug] 200 OK (0.120201s, 8.319/s).
+[Sat Dec 15 14:59:21 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 14:59:21 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 14:59:21 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 14:59:21 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 14:59:21 2012] [debug] 200 OK (0.001317s, 759.301/s).
+[Sat Dec 15 23:01:00 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:02:06 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:02:06 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:06 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:06 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:06 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:02:06 2012] [debug] 200 OK (0.093590s, 10.685/s).
+[Sat Dec 15 23:02:06 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:06 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:06 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:06 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:06 2012] [debug] 200 OK (0.001292s, 773.994/s).
+[Sat Dec 15 23:02:16 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:16 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:16 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:16 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:16 2012] [debug] 200 OK (0.001553s, 643.915/s).
+[Sat Dec 15 23:02:16 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:16 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:16 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:16 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:16 2012] [debug] 200 OK (0.001350s, 740.741/s).
+[Sat Dec 15 23:02:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:17 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:17 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:17 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:17 2012] [debug] 200 OK (0.001268s, 788.644/s).
+[Sat Dec 15 23:02:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:17 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:17 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:17 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:17 2012] [debug] 200 OK (0.001452s, 688.705/s).
+[Sat Dec 15 23:02:18 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:18 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:18 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:18 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:18 2012] [debug] 200 OK (0.001228s, 814.332/s).
+[Sat Dec 15 23:02:18 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:18 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:18 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:18 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:18 2012] [debug] 200 OK (0.001311s, 762.777/s).
+[Sat Dec 15 23:02:19 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:19 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:19 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:19 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:19 2012] [debug] 200 OK (0.001201s, 832.639/s).
+[Sat Dec 15 23:02:19 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:19 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:19 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:19 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:19 2012] [debug] 200 OK (0.001727s, 579.039/s).
+[Sat Dec 15 23:02:20 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:20 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] 200 OK (0.001216s, 822.368/s).
+[Sat Dec 15 23:02:20 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:20 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] 200 OK (0.001199s, 834.028/s).
+[Sat Dec 15 23:02:20 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:20 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] 200 OK (0.001312s, 762.195/s).
+[Sat Dec 15 23:02:20 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:20 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:20 2012] [debug] 200 OK (0.001142s, 875.657/s).
+[Sat Dec 15 23:02:22 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:02:23 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:02:23 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:23 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:23 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:23 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:02:23 2012] [debug] 200 OK (0.029249s, 34.189/s).
+[Sat Dec 15 23:02:23 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:23 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sat Dec 15 23:02:23 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sat Dec 15 23:02:23 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:23 2012] [debug] 200 OK (0.001644s, 608.273/s).
+[Sat Dec 15 23:02:25 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 15 23:02:25 2012] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 15 23:02:25 2012] [debug] Rendering inline template.
+[Sat Dec 15 23:02:25 2012] [debug] Rendering inline template.
+[Sat Dec 15 23:02:25 2012] [debug] 404 Not Found (0.017380s, 57.537/s).
+[Sat Dec 15 23:02:44 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:44 2012] [debug] Template "not_found.development.html.ep" not found.
+[Sat Dec 15 23:02:44 2012] [debug] Template "not_found.html.ep" not found.
+[Sat Dec 15 23:02:44 2012] [debug] Rendering cached inline template.
+[Sat Dec 15 23:02:44 2012] [debug] Rendering cached inline template.
+[Sat Dec 15 23:02:44 2012] [debug] 404 Not Found (0.006385s, 156.617/s).
+[Sat Dec 15 23:02:46 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:02:47 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:02:47 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:47 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:02:47 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:02:47 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:02:47 2012] [debug] 200 OK (0.027786s, 35.989/s).
+[Sat Dec 15 23:02:47 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:02:47 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:02:47 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:02:47 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:02:47 2012] [debug] 200 OK (0.001127s, 887.311/s).
+[Sat Dec 15 23:28:00 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:28:04 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:28:04 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:28:04 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:28:04 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:28:04 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:28:04 2012] [debug] 200 OK (0.056634s, 17.657/s).
+[Sat Dec 15 23:28:04 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:28:04 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:28:04 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:28:04 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:28:04 2012] [debug] 200 OK (0.001266s, 789.889/s).
+[Sat Dec 15 23:28:24 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:28:28 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:28:28 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:28:28 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:28:28 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:28:28 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:28:28 2012] [debug] 200 OK (0.027695s, 36.108/s).
+[Sat Dec 15 23:28:28 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:28:28 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:28:28 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:28:28 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:28:28 2012] [debug] 200 OK (0.001592s, 628.141/s).
+[Sat Dec 15 23:35:09 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:35:13 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:35:13 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:13 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:13 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:35:13 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:35:13 2012] [debug] 200 OK (0.040032s, 24.980/s).
+[Sat Dec 15 23:35:13 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:13 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:13 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:35:13 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:35:13 2012] [debug] 200 OK (0.001312s, 762.195/s).
+[Sat Dec 15 23:35:29 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:35:30 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:35:30 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:30 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:30 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:35:30 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:35:30 2012] [debug] 200 OK (0.028738s, 34.797/s).
+[Sat Dec 15 23:35:30 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:30 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:30 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:35:30 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:35:30 2012] [debug] 200 OK (0.001619s, 617.665/s).
+[Sat Dec 15 23:35:48 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:35:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:35:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:49 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:35:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:35:49 2012] [debug] 200 OK (0.028311s, 35.322/s).
+[Sat Dec 15 23:35:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:49 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:35:49 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:35:49 2012] [debug] 200 OK (0.001646s, 607.533/s).
+[Sat Dec 15 23:35:57 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:35:58 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:35:58 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:58 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:58 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:35:58 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:35:58 2012] [debug] 200 OK (0.027533s, 36.320/s).
+[Sat Dec 15 23:35:58 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:35:58 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:35:58 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:35:58 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:35:58 2012] [debug] 200 OK (0.001177s, 849.618/s).
+[Sat Dec 15 23:36:25 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:36:26 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:36:26 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:36:26 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:36:26 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:36:26 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:36:26 2012] [debug] 200 OK (0.027913s, 35.826/s).
+[Sat Dec 15 23:36:26 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:36:26 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:36:26 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:36:26 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:36:26 2012] [debug] 200 OK (0.001174s, 851.789/s).
+[Sat Dec 15 23:36:48 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:36:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:36:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:36:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:36:49 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:36:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:36:49 2012] [debug] 200 OK (0.028222s, 35.433/s).
+[Sat Dec 15 23:36:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:36:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:36:49 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:36:49 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:36:49 2012] [debug] 200 OK (0.001471s, 679.810/s).
+[Sat Dec 15 23:37:10 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:37:11 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:37:11 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:37:11 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:37:11 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:37:11 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:37:11 2012] [debug] 200 OK (0.030605s, 32.674/s).
+[Sat Dec 15 23:37:11 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:37:11 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:37:11 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:37:11 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:37:11 2012] [debug] 200 OK (0.001460s, 684.932/s).
+[Sat Dec 15 23:38:48 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:38:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:38:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:38:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:38:49 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:38:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:38:49 2012] [debug] 200 OK (0.029400s, 34.014/s).
+[Sat Dec 15 23:38:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:38:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:38:49 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:38:49 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:38:49 2012] [debug] 200 OK (0.001315s, 760.456/s).
+[Sat Dec 15 23:38:58 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:38:59 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:38:59 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:38:59 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:38:59 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:38:59 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:38:59 2012] [debug] 200 OK (0.029961s, 33.377/s).
+[Sat Dec 15 23:38:59 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:38:59 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:38:59 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:38:59 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:38:59 2012] [debug] 200 OK (0.001172s, 853.242/s).
+[Sat Dec 15 23:47:58 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:48:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:48:01 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:48:01 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:48:01 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:48:01 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:48:01 2012] [debug] 200 OK (0.029780s, 33.580/s).
+[Sat Dec 15 23:48:01 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:48:01 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:48:01 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:48:01 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:48:01 2012] [debug] 200 OK (0.001216s, 822.368/s).
+[Sat Dec 15 23:48:14 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:48:15 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:48:15 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:48:15 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:48:15 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:48:15 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:48:15 2012] [debug] 200 OK (0.029648s, 33.729/s).
+[Sat Dec 15 23:48:15 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:48:15 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:48:15 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:48:15 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:48:15 2012] [debug] 200 OK (0.001393s, 717.875/s).
+[Sat Dec 15 23:50:46 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:50:47 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:50:47 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:50:47 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:50:47 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:50:47 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:50:47 2012] [debug] 200 OK (0.030397s, 32.898/s).
+[Sat Dec 15 23:50:47 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:50:47 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:50:47 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:50:47 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:50:47 2012] [debug] 200 OK (0.001781s, 561.482/s).
+[Sat Dec 15 23:50:55 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:50:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:50:56 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:50:56 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:50:56 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:50:56 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:50:56 2012] [debug] 200 OK (0.029194s, 34.254/s).
+[Sat Dec 15 23:50:56 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:50:56 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:50:56 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:50:56 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:50:56 2012] [debug] 200 OK (0.001160s, 862.069/s).
+[Sat Dec 15 23:54:42 2012] [info] Listening at "http://*:8000".
+[Sat Dec 15 23:54:45 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sat Dec 15 23:54:45 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:54:45 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:54:45 2012] [debug] Rendering template "guide/index.html.ep".
+[Sat Dec 15 23:54:45 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sat Dec 15 23:54:45 2012] [debug] 200 OK (0.029487s, 33.913/s).
+[Sat Dec 15 23:54:45 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sat Dec 15 23:54:45 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sat Dec 15 23:54:45 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sat Dec 15 23:54:45 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Dec 15 23:54:45 2012] [debug] 200 OK (0.001382s, 723.589/s).
+[Sun Dec 16 00:01:27 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:01:54 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:01:54 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:01:54 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:01:54 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:01:54 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:01:54 2012] [debug] 200 OK (0.045303s, 22.074/s).
+[Sun Dec 16 00:01:54 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:01:54 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:01:54 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:01:54 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:01:54 2012] [debug] 200 OK (0.001361s, 734.754/s).
+[Sun Dec 16 00:02:55 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:02:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:02:56 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:02:56 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:02:56 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:02:56 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:02:56 2012] [debug] 200 OK (0.032744s, 30.540/s).
+[Sun Dec 16 00:02:56 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:02:56 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:02:56 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:02:56 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:02:56 2012] [debug] 200 OK (0.001849s, 540.833/s).
+[Sun Dec 16 00:06:58 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:06:59 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:06:59 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:06:59 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:06:59 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:06:59 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:06:59 2012] [debug] 200 OK (0.047730s, 20.951/s).
+[Sun Dec 16 00:06:59 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:06:59 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:06:59 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:06:59 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:06:59 2012] [debug] 200 OK (0.001252s, 798.722/s).
+[Sun Dec 16 00:07:10 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:07:11 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:07:11 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:07:11 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:07:11 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:07:11 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:07:11 2012] [debug] 200 OK (0.033855s, 29.538/s).
+[Sun Dec 16 00:07:11 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:07:11 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:07:11 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:07:11 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:07:11 2012] [debug] 200 OK (0.001236s, 809.061/s).
+[Sun Dec 16 00:10:58 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:11:04 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:11:04 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:11:04 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:11:04 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:11:04 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:11:04 2012] [debug] 200 OK (0.037815s, 26.445/s).
+[Sun Dec 16 00:11:04 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:11:04 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:11:04 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:11:04 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:11:04 2012] [debug] 200 OK (0.001275s, 784.314/s).
+[Sun Dec 16 00:11:17 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:11:19 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:11:19 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:11:19 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:11:19 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:11:19 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:11:19 2012] [debug] 200 OK (0.033816s, 29.572/s).
+[Sun Dec 16 00:11:19 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:11:19 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:11:19 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:11:19 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:11:19 2012] [debug] 200 OK (0.001715s, 583.090/s).
+[Sun Dec 16 00:16:33 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:16:34 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:16:34 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:16:34 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:16:34 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:16:34 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:16:34 2012] [debug] 200 OK (0.057320s, 17.446/s).
+[Sun Dec 16 00:16:34 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:16:34 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:16:34 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:16:34 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:16:34 2012] [debug] 200 OK (0.001498s, 667.557/s).
+[Sun Dec 16 00:25:11 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:26:16 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:26:18 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:26:18 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:26:18 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:26:18 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:26:18 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:26:18 2012] [debug] 200 OK (0.060272s, 16.591/s).
+[Sun Dec 16 00:26:19 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:26:19 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:26:19 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:26:19 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:26:19 2012] [debug] 200 OK (0.001374s, 727.802/s).
+[Sun Dec 16 00:26:49 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:26:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:26:55 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:26:55 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:26:55 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:26:55 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:26:55 2012] [debug] 200 OK (0.035832s, 27.908/s).
+[Sun Dec 16 00:26:55 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:26:55 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:26:55 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:26:55 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:26:55 2012] [debug] 200 OK (0.001351s, 740.192/s).
+[Sun Dec 16 00:28:23 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:28:23 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:28:23 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:28:23 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:28:23 2012] [debug] 200 OK (0.001381s, 724.113/s).
+[Sun Dec 16 00:28:23 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:28:23 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:28:23 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:28:23 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:28:23 2012] [debug] 200 OK (0.001387s, 720.981/s).
+[Sun Dec 16 00:28:30 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:28:30 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:28:30 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:28:30 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:28:30 2012] [debug] 200 OK (0.001414s, 707.214/s).
+[Sun Dec 16 00:28:30 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:28:30 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:28:30 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:28:30 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:28:30 2012] [debug] 200 OK (0.001868s, 535.332/s).
+[Sun Dec 16 00:28:40 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Sun Dec 16 00:28:40 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:28:40 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:28:40 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:28:40 2012] [debug] 200 OK (0.001436s, 696.379/s).
+[Sun Dec 16 00:31:10 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:31:10 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:31:10 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:31:10 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:31:10 2012] [debug] 200 OK (0.001373s, 728.332/s).
+[Sun Dec 16 00:31:10 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:31:10 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:31:10 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:31:10 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:31:10 2012] [debug] 200 OK (0.001977s, 505.817/s).
+[Sun Dec 16 00:31:48 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:31:49 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:31:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:31:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:31:49 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:31:49 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:31:49 2012] [debug] 200 OK (0.062919s, 15.893/s).
+[Sun Dec 16 00:31:49 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:31:49 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:31:49 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:31:49 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:31:49 2012] [debug] 200 OK (0.001815s, 550.964/s).
+[Sun Dec 16 00:39:06 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:39:09 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:39:09 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:39:09 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:39:09 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:39:09 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:39:09 2012] [debug] 200 OK (0.088960s, 11.241/s).
+[Sun Dec 16 00:39:09 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:39:09 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:39:09 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:39:09 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:39:09 2012] [debug] 200 OK (0.001420s, 704.225/s).
+[Sun Dec 16 00:39:41 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:39:42 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:39:42 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:39:42 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:39:42 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:39:42 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:39:42 2012] [debug] 200 OK (0.035972s, 27.799/s).
+[Sun Dec 16 00:39:42 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:39:42 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:39:42 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:39:42 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:39:42 2012] [debug] 200 OK (0.001386s, 721.501/s).
+[Sun Dec 16 00:43:13 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:43:20 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:43:20 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:43:20 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:43:20 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:43:20 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:43:20 2012] [debug] 200 OK (0.040780s, 24.522/s).
+[Sun Dec 16 00:43:20 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:43:20 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:43:20 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:43:20 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:43:20 2012] [debug] 200 OK (0.002148s, 465.549/s).
+[Sun Dec 16 00:44:24 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:44:24 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:44:24 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 00:44:24 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:44:24 2012] [debug] 200 OK (0.012123s, 82.488/s).
+[Sun Dec 16 00:44:24 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:44:24 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:44:24 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:44:24 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:44:24 2012] [debug] 200 OK (0.001246s, 802.568/s).
+[Sun Dec 16 00:44:35 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:44:35 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:44:35 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:44:35 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:44:35 2012] [debug] 200 OK (0.001403s, 712.758/s).
+[Sun Dec 16 00:44:35 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:44:35 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:44:35 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:44:35 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:44:35 2012] [debug] 200 OK (0.001549s, 645.578/s).
+[Sun Dec 16 00:44:45 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:44:45 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:44:45 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:44:45 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:44:45 2012] [debug] 200 OK (0.001216s, 822.368/s).
+[Sun Dec 16 00:44:45 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:44:45 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:44:45 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:44:45 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:44:45 2012] [debug] 200 OK (0.001236s, 809.061/s).
+[Sun Dec 16 00:45:16 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:45:17 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:45:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:45:17 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:45:17 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 00:45:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:45:17 2012] [debug] 200 OK (0.046712s, 21.408/s).
+[Sun Dec 16 00:45:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:45:17 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:45:17 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:45:17 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:45:17 2012] [debug] 200 OK (0.001104s, 905.797/s).
+[Sun Dec 16 00:45:50 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:45:51 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:45:51 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:45:51 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:45:51 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 00:45:51 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:45:51 2012] [debug] 200 OK (0.030499s, 32.788/s).
+[Sun Dec 16 00:45:51 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:45:51 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:45:51 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:45:51 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:45:51 2012] [debug] 200 OK (0.001393s, 717.875/s).
+[Sun Dec 16 00:46:01 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:46:01 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:46:01 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:46:01 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:46:01 2012] [debug] 200 OK (0.019346s, 51.690/s).
+[Sun Dec 16 00:46:01 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:46:01 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:46:01 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:46:01 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:46:01 2012] [debug] 200 OK (0.001576s, 634.518/s).
+[Sun Dec 16 00:46:05 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:46:05 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:46:05 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:46:05 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:46:05 2012] [debug] 200 OK (0.001231s, 812.348/s).
+[Sun Dec 16 00:46:05 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:46:05 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:46:05 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:46:05 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:46:05 2012] [debug] 200 OK (0.001289s, 775.795/s).
+[Sun Dec 16 00:47:58 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:47:59 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:47:59 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:47:59 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:47:59 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 00:47:59 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:47:59 2012] [debug] 200 OK (0.030392s, 32.903/s).
+[Sun Dec 16 00:47:59 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:47:59 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:47:59 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:47:59 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:47:59 2012] [debug] 200 OK (0.001783s, 560.852/s).
+[Sun Dec 16 00:48:55 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 00:48:56 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 00:48:56 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:48:56 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:48:56 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 00:48:56 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:48:56 2012] [debug] 200 OK (0.028944s, 34.549/s).
+[Sun Dec 16 00:48:56 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:48:56 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 00:48:56 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 00:48:56 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:48:56 2012] [debug] 200 OK (0.001356s, 737.463/s).
+[Sun Dec 16 00:49:12 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:49:12 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:49:12 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 00:49:12 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 00:49:12 2012] [debug] 200 OK (0.019585s, 51.059/s).
+[Sun Dec 16 00:49:12 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 00:49:12 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 00:49:12 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 00:49:12 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 00:49:12 2012] [debug] 200 OK (0.001742s, 574.053/s).
+[Sun Dec 16 01:04:32 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:04:32 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:04:32 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:04:32 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:04:32 2012] [debug] 200 OK (0.001345s, 743.494/s).
+[Sun Dec 16 01:04:32 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:04:32 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:04:32 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:04:32 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:04:32 2012] [debug] 200 OK (0.001178s, 848.896/s).
+[Sun Dec 16 01:05:51 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 01:05:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 01:05:55 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:05:55 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:05:55 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 01:05:55 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:05:55 2012] [debug] 200 OK (0.052966s, 18.880/s).
+[Sun Dec 16 01:05:55 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:05:55 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:05:55 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:05:55 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:05:55 2012] [debug] 200 OK (0.001187s, 842.460/s).
+[Sun Dec 16 01:06:40 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 01:06:41 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 01:06:41 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:06:41 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:06:41 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 01:06:41 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:06:41 2012] [debug] 200 OK (0.032965s, 30.335/s).
+[Sun Dec 16 01:06:41 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:06:41 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:06:41 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:06:41 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:06:41 2012] [debug] 200 OK (0.001345s, 743.494/s).
+[Sun Dec 16 01:08:16 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 01:08:17 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 01:08:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:08:17 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:08:17 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 01:08:17 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:08:17 2012] [debug] 200 OK (0.030862s, 32.402/s).
+[Sun Dec 16 01:08:17 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:08:17 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:08:17 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:08:17 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:08:17 2012] [debug] 200 OK (0.001695s, 589.971/s).
+[Sun Dec 16 01:09:29 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 01:09:30 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 01:09:30 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:09:30 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:09:30 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 01:09:30 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:09:30 2012] [debug] 200 OK (0.031226s, 32.025/s).
+[Sun Dec 16 01:09:30 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:09:30 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:09:30 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:09:30 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:09:30 2012] [debug] 200 OK (0.001183s, 845.309/s).
+[Sun Dec 16 01:09:44 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 01:09:45 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 01:09:45 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:09:45 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:09:45 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 01:09:45 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:09:45 2012] [debug] 200 OK (0.030580s, 32.701/s).
+[Sun Dec 16 01:09:45 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:09:45 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:09:45 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:09:45 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:09:45 2012] [debug] 200 OK (0.001633s, 612.370/s).
+[Sun Dec 16 01:10:00 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 01:10:01 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 01:10:01 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:10:01 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:10:01 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 01:10:01 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:10:01 2012] [debug] 200 OK (0.030737s, 32.534/s).
+[Sun Dec 16 01:10:01 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:10:01 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:10:01 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:10:01 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:10:01 2012] [debug] 200 OK (0.001259s, 794.281/s).
+[Sun Dec 16 01:10:32 2012] [info] Listening at "http://*:8000".
+[Sun Dec 16 01:10:33 2012] [debug] Your secret passphrase needs to be changed!!!
+[Sun Dec 16 01:10:33 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:10:33 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:10:33 2012] [debug] Rendering template "frontpage/index.html.ep".
+[Sun Dec 16 01:10:33 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:10:33 2012] [debug] 200 OK (0.029513s, 33.883/s).
+[Sun Dec 16 01:10:33 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:10:33 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:10:33 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:10:33 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:10:33 2012] [debug] 200 OK (0.001581s, 632.511/s).
+[Sun Dec 16 01:10:42 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:10:42 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:10:42 2012] [debug] Rendering template "guide/index.html.ep".
+[Sun Dec 16 01:10:42 2012] [debug] Rendering template "layouts/default.html.ep".
+[Sun Dec 16 01:10:42 2012] [debug] 200 OK (0.041783s, 23.933/s).
+[Sun Dec 16 01:10:42 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:10:42 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:10:42 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:10:42 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:10:42 2012] [debug] 200 OK (0.001469s, 680.735/s).
+[Sun Dec 16 01:11:08 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:11:08 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:11:08 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:11:08 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:11:08 2012] [debug] 200 OK (0.001223s, 817.661/s).
+[Sun Dec 16 01:11:08 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:11:08 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:11:08 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:11:08 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:11:08 2012] [debug] 200 OK (0.001258s, 794.913/s).
+[Sun Dec 16 01:12:04 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:12:04 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:12:04 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:12:04 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:12:04 2012] [debug] 200 OK (0.001421s, 703.730/s).
+[Sun Dec 16 01:12:04 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:12:04 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:12:04 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:12:04 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:12:04 2012] [debug] 200 OK (0.001698s, 588.928/s).
+[Sun Dec 16 01:12:14 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:12:14 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:12:14 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:12:14 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:12:14 2012] [debug] 200 OK (0.001223s, 817.661/s).
+[Sun Dec 16 01:12:14 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:12:14 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:12:14 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:12:14 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:12:14 2012] [debug] 200 OK (0.001330s, 751.880/s).
+[Sun Dec 16 01:12:34 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:12:34 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:12:34 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:12:34 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:12:34 2012] [debug] 200 OK (0.001411s, 708.717/s).
+[Sun Dec 16 01:12:34 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:12:34 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:12:34 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:12:34 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:12:34 2012] [debug] 200 OK (0.001830s, 546.448/s).
+[Sun Dec 16 01:14:03 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:14:03 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:14:03 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:14:03 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:14:03 2012] [debug] 200 OK (0.001232s, 811.688/s).
+[Sun Dec 16 01:14:03 2012] [debug] GET / (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:14:03 2012] [debug] Routing to controller "Box::Frontpage" and action "index".
+[Sun Dec 16 01:14:03 2012] [debug] Rendering cached template "frontpage/index.html.ep".
+[Sun Dec 16 01:14:03 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:14:03 2012] [debug] 200 OK (0.001148s, 871.080/s).
+[Sun Dec 16 01:14:09 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:14:09 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:14:09 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:14:09 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:14:09 2012] [debug] 200 OK (0.001420s, 704.225/s).
+[Sun Dec 16 01:14:09 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.97 Safari/537.11).
+[Sun Dec 16 01:14:09 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:14:09 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:14:09 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:14:09 2012] [debug] 200 OK (0.001393s, 717.875/s).
+[Sun Dec 16 01:16:32 2012] [debug] GET /guide (Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:17.0) Gecko/20100101 Firefox/17.0).
+[Sun Dec 16 01:16:32 2012] [debug] Routing to controller "Box::Guide" and action "index".
+[Sun Dec 16 01:16:32 2012] [debug] Rendering cached template "guide/index.html.ep".
+[Sun Dec 16 01:16:32 2012] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Dec 16 01:16:32 2012] [debug] 200 OK (0.001335s, 749.064/s).

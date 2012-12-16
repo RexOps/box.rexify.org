@@ -1,0 +1,215 @@
+% layout 'default';
+% title 'Guide to Rex/Boxes';
+
+<h1>Why Rex/Boxes?</h1>
+
+<p><b>As a developer</b> you know the problem that the behavior of production servers is often different than that of your development machine. And the debugging of issues in production is stressfull and annoying.</p>
+<div class="small-vspace"></div>
+<p>The problems ranges from wrong versions of a interpreter (for example Perl, PHP, Python, Ruby, ...) over missing libraries up to operating system differences. With Rex/Boxes you can build one Box (VM) for every project you work on and keep your environment clean and consistent.</p> 
+<div class="small-vspace"></div>
+<p>A few months ago i heard someone saying &raquo;<i>Fail early, fail hard</i>&laquo;. It is always better to fail on test environments than on production machines.</p>
+
+<div class="small-vspace"></div>
+<p>With Rex/Boxes it is possible to <b>test your Software in an environment close to production</b>.</p>
+
+<div class="vspace"></div>
+<p><b>As a Teamlead</b> it is often not a small task to onboard new team members. With Rex/Boxes new team members can start working in just a few minutes. They can just use the <i>Rexfile</i> to create their own development environment in minutes. With the same packages, same versions, same configuration, same ... as everyone in the team.</p>
+
+
+<div class="vspace"></div>
+<p><b>As a SysAdmin</b> you can build quickly test environments close to production to test new settings or software before they get deployed to production.</p>
+
+<div class="vspace"></div>
+<h2>Living DevOps</h2>
+<div class="small-vspace"></div>
+<p>With <a href="http://rexify.org/">(R)?ex</a> it is possible to bring Development and Operations close together. Build your environment as a team. Use the knowledge of both to create a perfect environment for your application. Write (R)?ex tasks together, so that you can use the <b>same <i>Rexfile</i> for your test environment and your production environment</b>.</p>
+
+<div class="vspace"></div>
+<h1>Introduction to (R)?ex and Rex/Boxes</h1>
+
+<p>(R)?ex is a tool to provision your Servers. It uses SSH to connect to your servers. You can rollout packages, manage configuration files and deploy software.</p>
+<div class="small-vspace"></div>
+<p>Rex/Boxes is a module integrated with (R)?ex to build Virtual Machines with <a href="http://www.virtualbox.org/">Oracle VirtualBox</a>.</p>
+<div class="small-vspace"></div>
+<p>(R)?ex uses a file called <i>Rexfile</i> to control everything. The <i>Rexfile</i> is to (R)?ex as a <i>Makefile</i> to Make. You can also use (R)?ex as a library for your own software. But this will be covered in an other documentation.</p>
+
+<div class="small-vspace"></div>
+<p>A typical <i>Rexfile</i> consist of the authentication definition and a few tasks to do things.</p>
+<div class="black-box">
+   <pre class="perl"># Rexfile
+user 'root';
+password 'foobar';
+
+group frontends =&gt; "fe[01..10]";
+
+task "prepare", group =&gt; "frontends", sub {
+   install "apache2";
+};
+</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>You can see, the <i>Rexfile</i> is simply perl code. With a <a href="http://rexify.org/api/">few extra functions</a> to ease working with the systems.</p>
+<div class="vspace"></div>
+
+<h1>Setup your environment</h1>
+
+<p>(R)?ex comes with a tool named <i>rexify</i>. You can use this to create new (R)?ex projects.</p>
+<p>If you see something in braces {{foo}} it means that you have to fill in your own things there.</p> 
+<div class="black-box">
+   <pre class="bash">bash# rexify {{project-name}} --template box</pre>
+</div>
+<div class="vspace"></div>
+<p>This will create a new directory {{project-name}} with a skeleton <i>Rexfile</i> to create new Boxes. Later we will open this file to customize our Box.</p>
+<p>Now you can change into the new directory {{project-name}} and run <i>rex</i> to download and create a new box for you.</p>
+
+<div class="black-box">
+   <pre class="bash">bash# rex init --name={{vm-name}} --url={{url-to-prebuild-vm-image}}</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>You can use the prebuild Box images from <a href="http://box.rexify.org/">http://box.rexify.org/</a> as a starting point and customize them throu (R)?ex tasks.</p>
+<p>This command will download an image from the given url and register a new Box in VirtualBox. After this it will start the Box and look for provisioning tasks.</p>
+
+<div class="vspace"></div>
+<h1>Customize your Box</h1>
+
+<p>With the <i>Rexfile</i> it is easy to customize your just created Box. Open the <i>Rexfile</i> and go down to the task &raquo;init&laquo;.</p>
+
+<div class="black-box">
+   <pre class="perl">task "init", sub {
+
+   my $param = shift;
+
+   box {
+      my ($box) = @_;
+      $box-&gt;name($param-&gt;{name});</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>If you don't want to use the command line to set the name of the Box you can put it there.</p>
+
+<div class="black-box">
+   <pre class="perl">
+      # where to download the base image
+      $box-&gt;url($param-&gt;url});</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>Here you can set the URL where to download the base Box image.</p>
+
+<div class="black-box">
+   <pre class="perl">
+      # default is nat
+      $box-&gt;network(1 =&gt; {
+         type   =&gt; "bridged",
+         bridge =&gt; "eth0",
+      });</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>If you want to use bridged networking you can set it here. But be aware, with bridged networking your Box will be available to all other systems on the same net.</p>
+
+<div class="black-box">
+   <pre class="perl">
+      # only works with network type = nat
+      # if a key ssh is present, rex will use this to log into the vm
+      # you need this if you run VirtualBox not on your local host.
+      $box-&gt;forward_port(ssh =&gt; [2222 =&gt; 22]);
+        
+      # define multiple forwards
+      # {{rule-name}} =&gt; [{{port-on-workstation}} =&gt; {{port-on-box}}] 
+      $box-&gt;forward_port(
+         ssh  =&gt; [2222 =&gt; 22],
+         http =&gt; [8080 =&gt; 80],
+      );</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>If you want to redirect ports from your Workstation to the Box, you can define them here.</p>
+
+<div class="black-box">
+   <pre class="perl">
+      # share a folder from the host system
+      $box-&gt;share_folder("{{sharename}}" =&gt; "{{/path/on/workstation}}");</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>You can also share folders from your workstation with the Box.</p>
+
+<div class="black-box">
+   <pre class="perl">
+      # define the authentication to the box
+      # if you're downloading one from box.rexify.org this is the default.
+      $box-&gt;auth(
+         user     =&gt; "root",
+         password =&gt; "box",
+      );</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>If you also want to provision your Box with (R)?ex you have to define the authentication information for this box here. Possible options are:</p>
+<ul class="simple-list">
+   <li>user</li>
+   <li>password</li>
+   <li>public_key</li>
+   <li>private_key</li>
+</ul>
+
+<div class="black-box">
+   <pre class="perl">
+      # if you want to provision the machine, 
+      # you can define the tasks to do that
+      $box-&gt;setup(qw/install_server/);
+   };
+
+};</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>If you want to use (R)?ex to provision your machine you can define tasks to run right after the Box creation. (R)?ex will than login to your Box and do the defined things. For example installing packages, doing special configurations or deploying software.</p>
+
+<div class="black-box">
+   <pre class="perl">task "install_server", sub {
+   install "apache2";
+   install "mysql-server";
+    
+   file "/etc/my.cnf",
+      source    =&gt; "files/my.cnf",
+      owner     =&gt; "root",
+      group     =&gt; "root",
+      on_change =&gt; sub { service mysql =&gt; "restart"; };
+
+   file "/etc/apache2/httpd.conf",
+      content   =&gt; template("templates/httpd.conf.tpl"),
+      owner     =&gt; "root",
+      group     =&gt; "root",
+      on_change =&gt; sub { service apache2 =&gt; "restart"; };
+};</pre>
+</div>
+
+<div class="small-vspace"></div>
+<p>This task will install apache2 and mysql on your Box. After installing the services it will upload a configuration file for both and, if the file was changed, it will restart the services.</p>
+
+<div class="small-vspace"></div>
+<p>You can always run the &raquo;init&laquo; task if you changed things (like port forwarding, folder sharing, ...). If a Box with the defined name already exists it will just update the settings for this Box.</p>
+<div class="small-vspace"></div>
+<p>The most settings can only be changed if the Box is stopped. To stop the box you can call the &raquo;down&laquo; task.</p>
+<div class="black-box">
+   <pre class="bash">bash# rex down --name={{vm-name}}</pre>
+</div>
+
+<div class="vspace"></div>
+<h1>Where to store the Rexfile?</h1>
+
+<p>The simpelst way is to store the Rexfile within your project source repository. So it is available for every team member.</p>
+
+<div class="vspace"></div>
+<h1>Where to get help?</h1>
+<p>If you have questions don't hesitate to join us on irc.freenode.net in the #rex channel.</p>
+
+<div class="small-vspace"></div>
+<p>You can also join our <a href="https://groups.google.com/group/rex-users/">Googlegroup</a> and ask your questions there.</p>
+
+<div class="small-vspace"></div>
+<p>We are happy for every contribution. So if you want to help fixing bugs or writing new functions you can fork the project on <a href="https://github.com/krimdomu/Rex">Github</a>.</p>
