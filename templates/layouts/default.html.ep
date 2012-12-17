@@ -18,7 +18,7 @@
 
       <div id="nav">
          <a href="http://rexify.org/"><img id="nav_img" src="http://rexify.org/images/title.png" alt="(R)?ex - What do you want to deploy today?"></a>
-         <div class="navlinks"><a href="/">Home</a>&nbsp;&nbsp;&nbsp;<a href="http://rexify.org/get" title="Install Rex on your systems">Get Rex</a>&nbsp;&nbsp;&nbsp;<a href="http://rexify.org/howtos" title="Examples, Howtos and Documentation">Howtos/Docs</a>&nbsp;&nbsp;&nbsp;<a href="http://rexify.org/api" title="The complete API documentation">API</a>&nbsp;&nbsp;&nbsp;<a href="https://github.com/krimdomu/Rex/wiki">Wiki</a></div>
+         <div class="navlinks"><a href="/">Home</a>&nbsp;&nbsp;&nbsp;<a href="/guide" title="Quickstart Guide">Help</a>&nbsp;&nbsp;&nbsp;<a href="/roll_your_own" title="Create your own Base Box">Roll your own</a>&nbsp;&nbsp;&nbsp;<a href="http://rexify.org/" title="Back to rexify.org">Back to rexify.org</a></div>
 
       </div>
 
