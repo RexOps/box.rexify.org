@@ -29,7 +29,7 @@
 <div class="black-box">
    <pre class="bash">bash# rexify $project-name --template=box
 bash# cd $project-name
-bash# rex init --name=vmname --url=http://box.rexify.org/box/ubuntu-server-12.10-amd64.box</pre>
+bash# rex init --name=vmname --url=http://box.rexify.org/box/ubuntu-server-12.10-amd64.ova</pre>
 </div>
 
 <div class="vspace"></div>
