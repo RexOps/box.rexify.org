@@ -1,0 +1,16 @@
+% layout "default";
+% title "Roll your own Boxes";
+
+<h1>Roll your own Boxes</h1>
+
+<p>Building custom Box images is an easy task.</p>
+
+<div class="small-vspace"></div>
+
+<p>First, you need to install the VirtualBox Client extensions and make sure that they will start on system boot.</p>
+<p>After that, you need to remove the network dbus rule file from your VM. Usually it is located under <i>/etc/udev/rules.d/*-persistent-net.rules</i>.</p>
+<p>Than shut down your VM and export your Virtual Machine and save the resulting OVA file onto a webserver.</p>
+
+<div class="small-vspace"></div>
+<p>Finished.</p>
+

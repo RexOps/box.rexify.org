@@ -7,4 +7,9 @@ sub index {
    $self->render;
 }
 
+sub roll_your_own {
+   my $self = shift;
+   $self->render;
+}
+
 1;

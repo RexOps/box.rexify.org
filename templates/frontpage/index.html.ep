@@ -29,7 +29,7 @@
 <div class="black-box">
    <pre class="bash">bash# rexify $project-name --template=box
 bash# cd $project-name
-bash# rex init --name=vmname --url=http://box.rexify.org/ubuntu-server-12.10-amd64.box</pre>
+bash# rex init --name=vmname --url=http://box.rexify.org/box/ubuntu-server-12.10-amd64.box</pre>
 </div>
 
 <div class="vspace"></div>
@@ -38,16 +38,16 @@ bash# rex init --name=vmname --url=http://box.rexify.org/ubuntu-server-12.10-amd
 
 <table border="0" class="box-list">
    <tr class="head">
-      <td>Name</td>
+      <td>Description</td>
       <td>URL</td>
       <td>Size</td>
    </tr>
 
    % for my $box (@{ $boxes }) {
    <tr>
-      <td>Foo</td>
-      <td>http://...</td>
-      <td>200 MB</td>
+      <td><%= $box->{desc} %></td>
+      <td><%= $box->{url} %></td>
+      <td><%= $box->{size} %> MB</td>
    </tr>
    % }
 </table>

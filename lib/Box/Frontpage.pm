@@ -5,13 +5,14 @@ use Mojo::Base 'Mojolicious::Controller';
 sub index {
    my $self = shift;
 
-   my @boxes = ({
-      name => "Foo",
-      url  => "http://...",
-      size => 200,
-   });
+   my $content = eval { local(@ARGV, $/) = ("./boxes.conf"); <>; };
+   my $ref_boxes  = eval 'package Box::Config::Loader;'
+                        . "no warnings; $content";
 
-   $self->render(boxes => \@boxes);
+   die "Couldn't load configuration file: $@" if(!$ref_boxes && $@);
+   die "Config file invalid. Did not return ARRAY reference." if( ref($ref_boxes) ne "ARRAY" );
+
+   $self->render(boxes => $ref_boxes);
 }
 
 1;
