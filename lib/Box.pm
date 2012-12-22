@@ -8,6 +8,17 @@ sub startup {
    # Documentation browser under "/perldoc"
    #$self->plugin('PODRenderer');
 
+   my @cfg = ("/etc/rex/box-server.conf", "/usr/local/etc/rex/box-server.conf", "box-server.conf");
+   my $cfg;
+   for my $file (@cfg) {
+      if(-f $file) {
+         $cfg = $file;
+         last;
+      }
+   }
+   $self->plugin('Config', file => $cfg);
+
+
    # Router
    my $r = $self->routes;
 
