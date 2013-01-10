@@ -6,7 +6,7 @@
 <p>Create clean development environments for your projects. Test your software in a production like environment.</p>
 <div class="small-vspace"></div>
 
-<p>With Rex/Boxes you can easily create your test environment with VirtualBox. You can use prebuild VM Images or <a href="#">roll your own</a>. Read the <a href="/guide">quickstart guide</a> to create your own environment in minutes.</p>
+<p>With Rex/Boxes you can easily create your test environment with VirtualBox. You can use prebuild VM Images or <a href="/roll_your_own">roll your own</a>. Read the <a href="/guide">quickstart guide</a> to create your own environment in minutes.</p>
 
 <div class="vspace"></div>
 <h1>Download a prebuild VirtualBox Image</h1>
